@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "959105546086",
+    "project_id": "rastronet-app",
+    "storage_bucket": "rastronet-app.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:959105546086:android:07b8bcc4040024ee5bbaa7",
+        "android_client_info": {
+          "package_name": "org.traccar.client"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5dsuxlXDtDCm_Am6Pi06bChUZC1SlanU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
