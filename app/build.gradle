@@ -16,7 +16,11 @@ android {
         multiDexEnabled true
     }
     namespace 'org.traccar.client'
-
+android.applicationVariants.configureEach { variant ->
+        variant.mergeResourcesProvider.configure {
+            dependsOn(copyFirebaseConfig)
+        }
+    }
     packagingOptions {
         resources {
             excludes += ['META-INF/DEPENDENCIES']
